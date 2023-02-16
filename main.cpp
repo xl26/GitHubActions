@@ -9,7 +9,8 @@ int main()
  r=n%10;    
  sum=(sum*10)+r;    
  n=n/10;    
-}    
+}
+cout << "Checking..."<<endl;    
 if(temp==sum)    
 cout<<"Number is Palindrome.";    
 else    
